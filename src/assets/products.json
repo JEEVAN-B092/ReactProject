@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Samsung Galaxy S24 Series",
+    "unitprice":"90,000",
+    "price": "1,49,999",
+    "stock":"6,150 units",
+    "imageUrl": "https://media.croma.com/image/upload/v1705640288/Croma%20Assets/Communication/Mobiles/Images/303838_oqpio4.png"
+  },
+  {
+    "id": "2",
+    "name": "Apple 16 Series",
+    "stock":"6,100 units",
+    "unitprice":"90,000",
+    "price":"1,49,999",
+    "imageUrl": "https://th.bing.com/th/id/OIP.6am3LshHjxAj8Oe_z99tTQAAAA?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id":3,
+    "name": "Google Pixel 8 Series",
+    "stock":"5,000 units",
+    "unitprice":"70,000",
+    "price": "1,12,999",
+    "imageUrl": "https://example.com/images/bluetooth-speaker.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi 14 Series",
+    "stock":"5,500 units",
+    "unitprice":"50,000",
+    "price":"99,999",
+    "imageUrl": "https://example.com/images/external-hard-drive.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vivo X100 Series",
+    "stock":"4,500 units",
+    "unitprice":"40,000",
+    "price": "89,999",
+    "imageUrl": "https://example.com/images/laptop-stand.jpg"
+  },
+  {
+    "id": 6,
+    "name": "USB-C Cable",
+    "stock":"5000 units",
+    "unitprice": "300",
+    "price":"749",
+    "imageUrl": "https://example.com/images/mechanical-keyboard.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ear Buds",
+    "stock":"5000 units",
+    "unitprice":"1,500",
+    "price":"3,599",
+    "imageUrl": "https://example.com/images/webcam.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Screen Protector",
+    "stock":"1500 units",
+    "unitprice":"250",
+    "price": "549",
+    "imageUrl": "https://example.com/images/monitor-stand.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Phone Case",
+    "stock":"4500 units",
+    "unitprice":"650",
+    "price": "999",
+    "imageUrl": "https://example.com/images/portable-charger.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Power Bank",
+    "stock":"7000 units",
+    "unitprice":"1,500",
+    "price":"4,599",
+    "imageUrl": "https://example.com/images/wireless-earbuds.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Selfi Stick",
+    "stock":"6500 units",
+    "unitprice":"300",
+    "price":"699",
+    "imageUrl": "https://example.com/images/wireless-mouse.jpg"
+  },
+  {
+    "id": 12,
+    "name": " Camera Lens Kit",
+    "stock":"1500 units",
+    "unitprice":"850",
+    "price":"1,499",
+    "imageUrl": "https://example.com/images/usb-c-cable.jpg"
+  }
+]

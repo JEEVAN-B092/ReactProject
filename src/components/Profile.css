@@ -1,0 +1,110 @@
+/* General styling */
+.user-profile {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #FFCC00;
+  border-radius: 10px;
+  background-color: #f9f9f972;
+}
+
+/* Profile picture styling */
+.profile-picture-section {
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 27%;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  text-align: right;
+}
+
+/* Flexbox layout for labels and inputs */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  
+}
+
+/* Label on the left */
+.profile-details strong {
+  flex: 1; /* Take up 1 part of space */
+  text-align: left;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Input or detail on the right */
+.profile-details input,
+.profile-details select,
+.profile-details span {
+  flex: 2; /* Take up 2 parts of space */
+  text-align: right;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #00000000;
+}
+
+.profile-details select {
+  appearance: none; /* Remove default select arrow */
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+
+.profile-details select:focus,
+.profile-details input:focus {
+  outline: none;
+  border-color:#FFCC00; /* Highlight on focus */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-button,
+.save-button {
+  background-color:#FFCC00;
+  color: white;
+  margin-left: 0px;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+button:hover {
+ 
+  transform: scale(1.05);
+}
+
+/* Adjust alignment of entire profile-details container */
+.profile-details {
+  padding: 10px 0;
+}
+
+

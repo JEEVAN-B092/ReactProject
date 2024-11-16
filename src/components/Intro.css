@@ -1,0 +1,113 @@
+.image {
+  position: relative; /* Ensure positioning for pseudo-element */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+ 
+}
+
+/* Blurred background image effect */
+.image::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/stockpic1.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px); /* Apply the blur effect */
+  z-index: -1; /* Make sure it stays behind the content */
+}
+
+/* Dark overlay for better contrast */
+.image::after {
+  content: '';
+  position: absolute;
+ 
+
+  z-index: -1;
+}
+
+.head {
+  font-size: 5rem; /* Extra large heading */
+  font-weight: bold;
+  padding-top: 95px;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+  text-decoration: underline;
+  color: #fff;
+  font-style: italic;
+  
+}
+
+.head2 {
+ 
+  font-size: 3rem;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  position: relative;
+  transition: color 0.4s ease;
+  animation: fadeIn 1.5s ease-in-out;
+  font-style: italic;
+
+}
+
+.head2:hover {
+  color: #ffcc00; /* Bright hover effect */
+}
+
+.lo {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding-bottom:25px;
+  margin: 0;
+  position: relative;
+  animation: fadeIn 2s ease-in-out;
+}
+.lo a{
+  text-decoration: none;
+}
+.lo li {
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lo li:hover {
+  background-color: #ffcc00;
+  color: black;
+  border-color: #ffcc00;
+  transform: scale(1.1);
+}
+
+/* Fade-in animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

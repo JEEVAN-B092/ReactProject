@@ -1,0 +1,157 @@
+.Cart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(0, 0, 0); /* Light gray color */
+    width: 90%;
+    margin: 0 auto; /* Center the cart container */
+}
+
+.Cart-product {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ffcc00;
+}
+
+.Cart-product img {
+    width: 100px;
+    height: 100px;    
+}
+
+.Cart-product .img img {
+    width: 100px;
+    height: 100px; 
+}
+
+.cart-heading, .cart-amt {
+    
+    color: rgb(0, 0, 0); /* Light gray color */
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center; /* Center align cart heading and amount */
+    justify-content: center;
+}
+
+.Cart-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.Cart-details h3 {
+    margin: 0;
+    color: #423d3d;
+    font-size:largE;
+}
+
+.Cart-details p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+.Cart-details div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Cart-details button {
+    margin-top: 10px;
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color:#ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cart-details button:hover {
+   transform: scale(1.05);
+}
+
+.place-order-btn {
+    font-size: 15PX;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place-order-btn:hover {
+    transform: scale(1.05);
+}
+
+.order-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    background-color: rgba(114, 113, 113, 0.144);
+    color: rgb(0, 0, 0);
+    width: 50%; /* Adjust width for centering */
+    margin: 20px auto; /* Center the form */
+    background-color: #ffffff6b;
+}
+
+.order-form h3 {
+    margin-bottom: 20px;
+    text-align: center; /* Center-align headers */
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.order-form input {
+    width: 70%; /* Full width inputs */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.order-form button {
+    padding: 10px 20px;
+    background-color:#ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center-align submit button */
+}
+
+.order-form button:hover {
+    transform: scale(1.05);
+}
+
+.order-form ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the list */
+}
+
+.order-form li {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+.removebt
+{
+    background-color: red!important;
+}

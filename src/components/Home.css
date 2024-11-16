@@ -1,0 +1,85 @@
+/* Styling the products container */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Cart count styling */
+  .cart.count {
+    background-color: rgb(36, 197, 143);
+    border-radius: 50%;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  /* Search bar container to center the search bar */
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Add a max-width to prevent overflow */
+    padding: 10px;
+    margin: 0 auto 20px; /* Centering and margin bottom */
+    font-size: 16px;
+    border: 2px solid #ffcc00;
+    border-radius: 15px;
+    background-color: #ffffffa2; /* Ensure the background is white */
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Hover and focus effect for the search bar */
+  .search-bar:focus {
+    outline: none;
+    border-color:#ffcc00; /* Slightly darker border on focus */
+  }
+  .search-bar:hover
+  {
+    transform: scale(1.05);
+  }
+  .table-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 192vh;
+    border-collapse: collapse;
+    
+  }
+  
+  .home-table th {
+    background-color: #ffcc00;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1.1em;
+    width: calc(100% / 6); /*Divides the width equally among the 6 columns */
+    border-radius: 5px;
+  } 
+  
+  th:not(:last-child) {
+    border-right: 1px solid #ffffff;
+  }
+  th span {
+    font-size: 12px; /* Adjust size to match h6 */
+    color: #ffffff;      /* Change color if desired */
+    margin-left: 5px;
+  }
+  
+  
+  
+  
